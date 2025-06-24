@@ -20,6 +20,11 @@ def check_if_possible(num):
 
 
 def get_sqrt(num):
+    """
+    this function is used to get the square root of the number
+    :param num: the number
+    :return: an error message if not possible
+    """
     check_if_possible(num)
     for number in range(num):
         if number * number == num:

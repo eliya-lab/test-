@@ -6,7 +6,7 @@ def get_number():
     num = int(input("enter a number you want to get its sqrt"))
     return num
 
-#בודק אם המספר גדולל או קטן מאפס ואז משתנה guess שמחלק את המספר בשתיים ואז הוא עושה פעולה חצי * )guess + num / guess)
+
 def check_if_possible(num):
     """
     this function is used to check if a number is possible
